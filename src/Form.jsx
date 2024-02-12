@@ -1,6 +1,11 @@
 import _ from './Form.module.css';
 import {useState} from "react";
 
+
+// Файл не используется.
+// Создание формы без использования библиотеки на чистом react
+
+
 export const Form = () => {
   const [email, setEmail] = useState('');
   const [emailError, setEmailError] = useState(false);
